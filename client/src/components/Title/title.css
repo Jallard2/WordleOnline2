@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(149, 149, 166);
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+}
+
+.JoinLobby {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 50%;
+    height: 10%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;    
+}
+
+.CreateLobby {
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    width: 50%;
+    height: 10%;
+    background-color: red;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.JoinLobby:hover {
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.CreateLobby:hover {
+    border: 5px solid white;
+    cursor: pointer;
+}
